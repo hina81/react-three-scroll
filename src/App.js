@@ -4,8 +4,8 @@ import { useScroll, Image, ScrollControls, Scroll } from "@react-three/drei";
 import "./App.css";
 
 function Images() {
-  const { viewport } = useThree(); // 正しい取得方法
-  const { height } = viewport; // オブジェクトからwidthとheightを取得
+  const { viewport } = useThree(); 
+  const { height } = viewport; 
   const group = useRef();
 
   const data = useScroll();
